@@ -1,3 +1,5 @@
+<img width="1599" height="1199" alt="image" src="https://github.com/user-attachments/assets/0ee43500-e8ac-4963-8956-bd428f5d4229" />
+
 # 🔐 Password Generator — Minimal Secure Tool
 
 A clean, minimal password generator built for quick, customizable, and secure password creation.
