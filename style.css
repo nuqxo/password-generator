@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #0e0e0e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #161616;
+    padding: 30px;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    animation: fadeIn .4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.output-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.output-box input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    background: #1f1f1f;
+    color: #00ffb7;
+    font-size: 16px;
+}
+
+.output-box button {
+    background: #00c78a;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.output-box button:hover {
+    background: #00e6a4;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.checkboxes label {
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.generate {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #0060ff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.generate:hover {
+    background: #1a75ff;
+}
+
